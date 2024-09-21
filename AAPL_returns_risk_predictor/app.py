@@ -4,7 +4,7 @@ import pandas as pd
 import numpy as np
 
 # Load the Model
-model = joblib.load('AAL_stock_risk_return_model.pkl')
+model = joblib.load('AAPL_returns_risk_predictor/AAL_stock_risk_return_model.pkl')
 
 # App Title
 st.title('Apple Inc. Stocks Returns and Risk Predictor')

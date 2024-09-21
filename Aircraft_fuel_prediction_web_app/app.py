@@ -4,7 +4,7 @@ import pandas as pd
 import numpy as np
 
 # Load the Model
-model = joblib.load('fuel_consumption_model.pkl')
+model = joblib.load('Aircraft_fuel_prediction_web_app/fuel_consumption_model.pkl')
 
 # webpage title
 st.set_page_config(page_title="Aircraft Fuel Consumption Predictor")

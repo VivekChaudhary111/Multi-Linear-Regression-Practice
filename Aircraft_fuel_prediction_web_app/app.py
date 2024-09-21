@@ -6,6 +6,9 @@ import numpy as np
 # Load the Model
 model = joblib.load('fuel_consumption_model.pkl')
 
+# webpage title
+st.set_page_config(page_title="Aircraft Fuel Consumption Predictor")
+
 # App Title
 st.title('Aircraft Fuel Consumption Predictor')
 

@@ -4,7 +4,7 @@ import pandas as pd
 import numpy as np
 
 # Load the Model
-model = joblib.load('https://github.com/VivekChaudhary111/Multi-Linear-Regression-Practice/blob/4aafb9764342a7df671cf87134b63375ad7d1672/AAPL_returns_risk_predictor/AAL_stock_risk_return_model.pkl')
+model = joblib.load('AAPL_returns_risk_predictor/AAL_stock_risk_return_model.pkl')
 
 # App Title
 st.title('Apple Inc. Stocks Returns and Risk Predictor')
